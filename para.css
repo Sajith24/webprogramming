@@ -1,0 +1,11 @@
+#hd {
+Color:red;
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; background-color:yellow;
+}
+p{
+background-color:#FFC0CB;
+color: blue;
+}
+.center{text-align:center;color: orange; background-color:blue;}
+*{font-style:italic;}
+
