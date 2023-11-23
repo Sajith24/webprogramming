@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Bulb</title>
+  <style>
+    /* Add your styles here */
+    #light {
+      max-width: 100%;
+      height: auto;
+    }
+  </style>
+</head>
+<body>
+  <h1>Bulb</h1>
+  <button id="onbutton">On</button>
+  <button id="offbutton">Off</button>
+  <img id="light" src="onbulb.jpg" alt="Bulb is off">
+  <script>
+    document.getElementById('onbutton').addEventListener('click', function() {
+      document.getElementById('light').src = "offbulb.jpg";
+    });
+
+    document.getElementById('offbutton').addEventListener('click', function() {
+      document.getElementById('light').src = "onbulb.jpg";
+    });
+  </script>
+</body>
+</html>
